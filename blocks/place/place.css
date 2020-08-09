@@ -1,0 +1,12 @@
+.place {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 67%;
+    margin-bottom: 80px;
+  }
+
+  .place:last-child {
+    margin-bottom: 0;
+  }
