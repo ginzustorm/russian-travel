@@ -1,9 +1,37 @@
 .lead {
-    margin: 56px 11.50% 0;
+    margin: 56px auto 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 78.5%;
-    height: 76.8%;
+    width: 984px;
+    height: 1005px;
+}
+
+@media all and (min-width: 1280px) {
+
+}
+
+@media all and (min-width: 1024px) and (max-width: 1279px) {
+  .lead {
+    margin: 56px auto 0;
+    width: 90.6%;
+    height: 100%;
+  }
+}
+
+@media all and (min-width: 768px) and (max-width: 1023px) {
+  .lead {
+    margin: 48px 0 0;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+@media all and (min-width: 320px) and (max-width: 767px) {
+  .lead {
+    margin: 48px 0 0;
+    width: 100%;
+    height: 100%;
+  }
 }

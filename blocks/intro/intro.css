@@ -1,8 +1,30 @@
 .intro {
-    margin: 92px 34.5% 0 11.50%;
-    min-width: 53.9%;
-    min-height: 33.5%;
+    margin: 92px 34.5% 0 11.2%;
+    width: 694px;
+    height: 429px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+  }
+
+  @media all and (min-width: 1024px) and (max-width: 1279px) {
+    .intro {
+      margin: 92px 286px 0 48px;
+      width: 67.5%;
+    }
+  }
+  
+  @media all and (min-width: 768px) and (max-width: 1023px) {
+    .intro {
+      margin: 88px auto 0;
+      width: 93.7%;
+    }
+  }
+  
+  @media all and (min-width: 320px) and (max-width: 767px) {
+    .intro {
+      margin: 64px 5% 0;
+      width: 90%;
+      height: 100%;
+    }
   }
