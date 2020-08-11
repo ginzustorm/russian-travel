@@ -7,6 +7,7 @@
     text-decoration: none;
     color: white;
     transition: opacity .3s ease;
+    text-align: right;
   }
 
 .header__lang-link:first-child {
@@ -15,4 +16,11 @@
 
 .header__lang-link:hover {
   opacity: .8;
+}
+
+@media all and (min-width: 320px) and (max-width: 767px) {
+  .header__lang-link {
+    font-size: 18px;
+    line-height: 133%;
+  }
 }

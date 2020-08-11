@@ -3,6 +3,7 @@
     justify-content: space-between;
     width: 1184px;
     height: 52px;
+    /* Вы написали, что отступы не те. Но по брифу стоит 28 пикселей сверху и по бокам auto. На вашем скриншоте моего margin нету, почему-то */
     margin: 28px auto 0;
   }
 

@@ -1,5 +1,6 @@
 .place__row {
     display: flex;
+    width: 100%;
     flex-direction: row;
     justify-content: flex-start;
     margin-bottom: 48px;

@@ -12,7 +12,7 @@
     .place__title {
       margin-right: 32px;
       width: 440px;
-      height: 152px;
+      height: 100%;
     }
   }
   
@@ -22,7 +22,7 @@
       width: 340px;
       font-size: 46px;
       line-height: 110%;
-      height: 92px;
+      height: 100%;
       display: flex;
       align-items: flex-end;
     }
@@ -32,7 +32,7 @@
     .place__title {
       width: 288px;
       margin: 0 auto;
-      height: 35px;
+      height: 100%;
       font-size: 32px;
       line-height: 109%;
       display: flex;

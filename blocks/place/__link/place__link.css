@@ -1,4 +1,4 @@
-.website__link {
+.place__link {
     text-decoration: underline;
     color: #FFFFFF;
     font-style: normal;
@@ -8,6 +8,6 @@
     margin: 0;
   }
 
-  .website__link:hover {
+  .place__link:hover {
     opacity: .8;
   }
